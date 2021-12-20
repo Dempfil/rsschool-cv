@@ -12,13 +12,14 @@ ___
 
 #### At the moment I work as a watchman, it gives me the opportunity to learn, I believe that with my perseverance and hard work I will succeed!
 ___
-## Skills and Proficiency:
+## Code example:
+### Skills and Proficiency:
 * HTML5, CSS3
 * JavaScript basics
 * Git, GitHub
 * VS Code
 ___
-## Kata Description:
+### Kata Description:
 Simple, remove the spaces from the string, then return the resultant string.
 
 ```
@@ -37,7 +38,7 @@ var stringToNumber = function(str){
 }
 ```
 ___
-### Courses:
+## Courses:
 * _Courses completed HTML, CSS, JS (base)_ [Ru code basics](https://ru.code-basics.com/languages/html)
 * _JavaScript Manual on_ [ learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
