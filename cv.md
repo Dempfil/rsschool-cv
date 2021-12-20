@@ -37,3 +37,13 @@ var stringToNumber = function(str){
 }
 ```
 ___
+### Courses:
+* _Courses completed HTML, CSS, JS (base)_ [Ru code basics](https://ru.code-basics.com/languages/html)
+* _JavaScript Manual on_ [ learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* Free courses [Htmlacademy](https://htmlacademy.ru/) (complete)
+___
+## Languages:
+* English - Intermediate/Upper-intermediate (according to the online test at EFset [www.efset.org](https://www.efset.org/quick-check/))
+* Test EPAM A1
+* Russian - native
