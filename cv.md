@@ -1,5 +1,5 @@
 # Alexandr Punov
-## Junior Frontend-Developer
+## Frontend-Developer(Beginner)
 ___
 ## _Contact information_:
 ### Phone: +375(29)338-92-41
