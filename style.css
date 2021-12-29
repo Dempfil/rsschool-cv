@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
-  
+  padding: 0;
 }
-
 
 body {
   display: flex;
@@ -12,16 +11,16 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
 
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
 
 .header {
-  background-color: #0081ac ;
+  background-color: #0081ac;
 }
 
 .container {
@@ -32,7 +31,7 @@ body {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+
   align-items: center;
   list-style: none;
 }
@@ -44,20 +43,134 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
-  line-height: 50px;
+  line-height: 35px;
   color: #ffffff;
 }
 
 .nav-link::after {
   content: "";
   position: absolute;
-  
+
   left: 12px;
   bottom: -5px;
   width: calc(100% - 24px);
   height: 2px;
-  
+
   background-color: #00008b;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
+}
+
+main {
+  display: flex;
+  margin-bottom: auto;
+
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
+
+}
+/* Rigt side*/
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 23%;
+}
+
+.righi-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.righi-list a {
+  color: black;
+}
+
+.righi-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.rigth-contacts {
+  border-bottom: 2px solid grey;
+}
+
+.contacts-item:before {
+  content: "";
+  position: absolute;
+
+  left: 25px;
+  width: 24px;
+  height: 24px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1):before {
+  width: 21px;
+  height: 21px;
+  background-image: url(assets/svg/1.svg);
+}
+
+.contacts-item:nth-child(2):before {
+  width: 21px;
+  height: 21px;
+  background-image: url(assets/svg/2.svg);
+}
+.contacts-item:nth-child(3):before {
+  width: 21px;
+  height: 21px;
+  background-image: url(assets/svg/3.svg);
+}
+.contacts-item:nth-child(4):before {
+  width: 21px;
+  height: 21px;
+  background-image: url(assets/svg/4.svg);
+}
+.contacts-item:nth-child(5):before {
+  width: 21px;
+  height: 21px;
+  background-image: url(assets/svg/5.svg);
+}
+
+.vertical-line {
+  border-left: 6px solid rgb(8 8 8);
+  height: 89%;
+  position: absolute;
+  left: 300px;
+  margin-left: 80px;
+  top: 68px;
+}
+
+/* Left-side*/
+
+.left-side {
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+h1 {
+  border-bottom: 2px solid #000;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+
+
+
+
+
+footer {
+  background-color: rgb(8, 8, 8);
 }
