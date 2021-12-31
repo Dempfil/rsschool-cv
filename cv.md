@@ -1,6 +1,5 @@
-
 # Alexandr Punov
-## Junior Frontend-Developer
+## Frontend-Developer(Beginner)
 ___
 ## _Contact information_:
 ### Phone: +375(29)338-92-41
@@ -12,13 +11,14 @@ ___
 
 #### At the moment I work as a watchman, it gives me the opportunity to learn, I believe that with my perseverance and hard work I will succeed!
 ___
-## Code example:
+
 ### Skills and Proficiency:
 * HTML5, CSS3
 * JavaScript basics
 * Git, GitHub
 * VS Code
 ___
+## Code example:
 ### Kata Description:
 Simple, remove the spaces from the string, then return the resultant string.
 
