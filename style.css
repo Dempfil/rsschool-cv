@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
-  padding: 0;
 }
+
+/*html {
+  scroll-behavior: smooth;
+}*/
 
 body {
   display: flex;
@@ -13,10 +16,10 @@ body {
 
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.5;
 
-  background-color: rgb(255, 255, 255);
+  
 }
 
 .header {
@@ -24,14 +27,13 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
-  min-height: 50px;
 }
 
 .nav-list {
   display: flex;
-
+  justify-content: end;
   align-items: center;
   list-style: none;
 }
@@ -43,8 +45,13 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
-  line-height: 35px;
+  line-height: 50px;
   color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #afc206;
+  transition: 0.3s;
 }
 
 .nav-link::after {
@@ -56,55 +63,61 @@ body {
   width: calc(100% - 24px);
   height: 2px;
 
-  background-color: #00008b;
+  background-color: #eeeef7;
   opacity: 0;
   transition: 0.5s;
 }
+@media(max-width: 768px;) {
+  .section {
+    width: 100%;
+    
+  }
+}
 
-main {
+.main {
   display: flex;
-  margin-bottom: auto;
+}
 
-  margin-left: 50px;
-  margin-top: 10px;
+.main-container {
+  margin-left: 40px;
 }
 
 img {
   width: 300px;
   border-radius: 50%;
-
 }
 /* Rigt side*/
-.right-side {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  width: 23%;
+.main-container-right {
+  border-left: solid rgb(0, 0, 0) 4px;
+  height: 100%;
 }
 
-.righi-list {
+.section {
+  width: 100%;
+}
+
+.contact-items {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.righi-list a {
+.contact-items a {
   color: black;
 }
 
-.righi-item {
+.contact-item {
   position: relative;
   margin: 0;
   margin-bottom: 10px;
   padding: 0;
 }
 
-.rigth-contacts {
-  border-bottom: 2px solid grey;
+.section {
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-.contacts-item:before {
+.contact-item:before {
   content: "";
   position: absolute;
 
@@ -116,48 +129,52 @@ img {
   background-repeat: no-repeat;
 }
 
-.contacts-item:nth-child(1):before {
+.contact-item:nth-child(1):before {
   width: 21px;
   height: 21px;
   background-image: url(assets/svg/1.svg);
+  margin-left: -50px;
+  margin-top: 3px;
 }
 
-.contacts-item:nth-child(2):before {
+.contact-item:nth-child(2):before {
   width: 21px;
   height: 21px;
   background-image: url(assets/svg/2.svg);
+  margin-left: -50px;
+  margin-top: 3px;
 }
-.contacts-item:nth-child(3):before {
+.contact-item:nth-child(3):before {
   width: 21px;
   height: 21px;
   background-image: url(assets/svg/3.svg);
+  margin-left: -50px;
+  margin-top: 3px;
 }
-.contacts-item:nth-child(4):before {
+.contact-item:nth-child(4):before {
   width: 21px;
   height: 21px;
   background-image: url(assets/svg/4.svg);
+  margin-left: -50px;
+  margin-top: 3px;
 }
-.contacts-item:nth-child(5):before {
+.contact-item:nth-child(5):before {
   width: 21px;
   height: 21px;
   background-image: url(assets/svg/5.svg);
+  margin-left: -50px;
+  margin-top: 3px;
 }
 
-.vertical-line {
-  border-left: 6px solid rgb(8 8 8);
-  height: 1100px;
-  position: absolute;
-  left: 300px;
-  margin-left: 80px;
-  top: 68px;
-}
+
 
 /* Left-side*/
 
 .left-side {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  
 }
 
 h1 {
@@ -168,23 +185,42 @@ h1 {
 
 .left-information {
   border-bottom: 2px solid #000;
-  
 }
 
-.left-information h2, p {
+.left-information h2,
+p {
   margin-left: 30px;
+  margin-right: 20px;
 }
 
 .left-courses {
   margin-left: 30px;
-    list-style: none;
+  list-style: none;
 }
 
 .left-courses a {
   color: #000;
 }
 
-
+/*Footer*/
 footer {
-  background-color: rgb(8, 8, 8);
+  background-color: #0081ac;
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.rss {
+  width: 130px;
+  height: 60px;
+  background-image: url(./assets/svg/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
 }
