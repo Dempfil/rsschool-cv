@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/star.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>сv</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <img src="./assets/img/Knight.jpg" alt="Photo">
+        <section class="section" id="contacts">
+            <h2>My contacts:</h2>
+            <ul class="contact-items"> 
+                <li class="contact-item">Mobile phone: (+375(29) 338-92-41)</li>
+                <li class="contact-item"><a href="https://discord.gg/BbtJJcZfpu" target="_blank">Discord: Dempfil#7642</a></li>
+                <li class="contact-item"><a href="mailto:dempfil@tut.by">Dempfil@tut.by</a></li>
+                <li class="contact-item"><a href="https://join.skype.com/invite/haeeMyxvy2DE" target="_blank">Skype: Dempfil</a></li>
+                <li class="contact-item"><a href="https://github.com/Dempfil" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+        <section class="section section-content" id="english">
+            <h2>English:</h2>
+            <ul class="english-items">
+                <li>English - Intermediate/Upper-intermediate (according to the online test at EFset <a href="www.efset.org">www.efset.org</a>)</li>
+                <li>Test EPAM - A1</li>
+                <li>Russian - native</li>
+                <li>Рad experience of communicating with native speakers.</li>
+            </ul>
+        </section>
+        <section class="section section-content" id="skills">
+            <h2>Skills:</h2>
+            <ul class="skills-items">
+                <li> HTML5, CSS3</li>
+                <li>JavaScript basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+
+            </ul>
+        </section>
+        
+        </div>
+        <div class="main-container-right">
+            <h1>Frontend-Developer(Beginner)</h1>
+            <section class="left-information" id="summary">
+                <h2 >Summary:</h2>
+                <p>My goal is to learn how to be a good web developer. 
+                    I am a baker by education, but due to illness (allergy) I cannot work for them.
+                    I enjoy learning new things and trying to apply it in my life. 
+                    The more knowledge you have, the better you understand reality. 
+                    I also enjoy connecting with people and making new connections.</p>
+            </section>
+            <section class="left-information" id="code">
+                <h2>Code example:</h2>
+                    <div>
+                        <pre>
+                            Kata Description:
+                            Simple, remove the spaces from the string, then return the resultant string.
+                            <code>
+                                function noSpace(x) {
+                                    return x.split(' ').join('')
+                                }
+                            </code>
+                            Kata Description:
+                            We need a function that can transform a string into a number. 
+                            What ways of achieving this do you know?
+                            Note: Don't worry, all inputs will be strings, and every string is a perfectly
+                            valid representation of an integral number.
+                            <code>
+                                var stringToNumber = function(str){
+                                    return Number(str);
+                                }
+                            </code>
+                        </pre>
+                    </div>
+            </section>
+            <section class="left-information" id="courses">
+                <h2 >Courses:</h2>
+                <ul class="left-courses">
+                    <li><a href="https://ru.code-basics.com/languages/html">Courses completed HTML, CSS, JS (base)</a></li>
+                    <li><a href="https://learn.javascript.ru/">JavaScript Manual on (in progress)</a></li> 
+                    <li><a href="https://rs.school/">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</a></li>
+                    <li><a href="https://htmlacademy.ru/">Free courses (complete)</a></li>
+                </ul>
+            </section>
+            <section class="left-information" id="projects">
+                <h2>Projects:</h2>
+                <ul>
+                    <li><a href="https://Dempfil.github.io/rsschool-cv/">First project</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                © 2022 
+                <a href="https://github.com/Dempfil" class="nav-link" target="_blank">GitHub</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+</html>
