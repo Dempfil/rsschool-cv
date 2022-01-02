@@ -31,7 +31,7 @@ body {
 
 .nav-list {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
@@ -73,6 +73,8 @@ body {
 
 .main {
   display: flex;
+  margin: auto;
+  max-width: 1440px;
 }
 
 .main-container {
@@ -82,10 +84,11 @@ body {
 img {
   width: 300px;
   border-radius: 50%;
+  margin-top: 20px;
 }
 /* Rigt side*/
-.main-container-right {
-  border-left: solid rgb(0, 0, 0) 4px;
+.main-container {
+  border-right: solid rgb(0, 0, 0) 4px;
   height: 100%;
 }
 
@@ -112,6 +115,10 @@ img {
 
 .section {
   border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.section:last-child {
+  border: none;
 }
 
 .contact-item:before {
@@ -165,7 +172,11 @@ img {
 
 /* Left-side*/
 
-.left-side {
+.information:last-child {
+  border: none;
+}
+
+.side {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -178,24 +189,25 @@ h1 {
   padding-bottom: 70px;
 }
 
-.left-information {
+.information {
   border-bottom: 2px solid #000;
 }
 
-.left-information h2,
+.information h2,
 p {
   margin-left: 30px;
   margin-right: 20px;
 }
 
-.left-courses {
+.courses {
   margin-left: 30px;
   list-style: none;
 }
 
-.left-courses a {
+.courses a {
   color: #000;
 }
+
 
 /*Footer*/
 footer {
